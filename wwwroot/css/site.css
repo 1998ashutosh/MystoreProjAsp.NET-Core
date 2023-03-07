@@ -1,0 +1,147 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.button-bg-red{
+    background-color:red;
+}
+.button-bg-green {
+    background-color: green;
+}
+.flex-container{
+    display:flex;
+}
+.btn-margin{
+    margin:3px;
+}
+#table-background-css {
+    background-color:aliceblue;
+    background-repeat: no-repeat;
+}
+.table-custom-font {
+    font-weight: bold!important;
+}
+
+.background-image {
+    background-image: url(https://cdn.wallpapersafari.com/93/77/3XzkaE.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.arrow-link {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow-image {
+    width: 50px;
+    height: 50px;
+    
+}
+
+/*tag line for app*/
+.tag-line {
+    background-color: #f8e7d9;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+
+    .tag-line h3 {
+        font-size: 26px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .tag-line p {
+        font-size: 24px;
+        color: #444444;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .tag-line a {
+        color: #0080ff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .tag-line a:hover {
+            text-decoration: underline;
+        }
+
